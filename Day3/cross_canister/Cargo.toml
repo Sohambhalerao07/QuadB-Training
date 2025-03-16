@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "src/cross_canister_backend",
+    "src/wallet",
+    "src/store"
+]
+[package]
+name = "canisters"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/store/src/lib.rs"

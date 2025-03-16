@@ -1,0 +1,4 @@
+service : {
+    deposit: (nat) -> ();
+    withdraw: (nat) -> ();
+}

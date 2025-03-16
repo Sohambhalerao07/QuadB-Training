@@ -1,0 +1,4 @@
+service : {
+    add_item: (text, nat) -> ();
+    get_item: (text) -> (opt nat);
+}
